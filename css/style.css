@@ -1,5 +1,6 @@
 
 /* 4192022 Today work was about creting CSS and start the process of Style the webpages */
+/* This is the Rafael R. Cordero Final Project for INFO LIS 472 575 Website*/
 body {
     background-color: #E9EBEE;
     font-family: 'Anton', sans-serif;
@@ -134,7 +135,6 @@ section{
   display: block;
   max-width: 60rem;
   max-height: 60rem;
-  margin: auto;
   border: 2rem solid #b5babd;
   
 }
@@ -146,67 +146,3 @@ header{
   margin: auto;
   border:transparent;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .navbar ul{
-    list-style:none;       
-    background: #663366;
-    padding: 0;
-    margin: 0;
-    text-align: center;  
-    bottom: 0;
-}
-.navbar li{
-    display: inline-block;
-    white-space: pre;
- }
-.navbar a{
-    text-decoration: none;
-    color:white;
-    width: 100px;
-    display: block;
-    padding: 25px 20px;
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: bold;
-    text-align:justify; */
-/* }
-.navbar a:hover{
-    background: orange; */
-
-
-
-
-
-/* Ideas
-https://www.w3schools.com/css/tryit.asp?filename=trycss_text-align 
-https://www.youtube.com/watch?v=uf3ayuzA6ME
-https://www.w3schools.com/css/tryit.asp?filename=trycss_align_clearfix
-https://www.w3schools.com/css/tryit.asp?filename=trycss_text-align_all*/
-/* https://www.w3schools.com/css/tryit.asp?filename=trycss_align_float */
-/* https://www.youtube.com/watch?v=R5aRUdM7Iio&list=RDCMUCftpQ1d4SbYDrv6MfCel_iw&index=1 */
-/* https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_div_test */
-/* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_word-wrap */
-/* https://www.google.com/search?q=padding&client=firefox-b-d&sxsrf=APq-WBslHwoxlCuwqpcKoSjbctSb07xXxA:1650488859379&tbm=isch&source=iu&ictx=1&vet=1&sa=X&ved=2ahUKEwjt3qyRxqP3AhW-RzABHaCECH4Q_h16BAgPEAU&biw=1378&bih=992&dpr=1.25#imgrc=Sw06B0DVZstWFM */
