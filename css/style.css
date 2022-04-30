@@ -7,48 +7,38 @@ body {
     padding: 0;
     position: relative;
     padding-bottom: 58px;
-/* /* }
-/* w3-container{
-    height: 150px;
-    padding: 0px 89px 0px 0px;
-    text-align: justify;
-    font-size: 25px;
-    color: red;
-    font-family: 'Inconsolata', monospace;
-    font-weight: bold;  */
-} 
- .flex {
-  font-family: 'Inconsolata',monospace;
-  background-color: #fafafa;
-  font-size: 24px;
+}
+/* This varible has the objective of arrange the picture and text.  */
+ .flex {    
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 5px;
-  border: 5px;
-} 
-h1 {
-    font-family: "Epilogue", arial verdana;
-    padding-top: 20px;
-    padding-left: 100px;
-    font-size: 3em
+  gap: 3px;
+  border: 5px; color:black;
+  padding: 0 1em; 
 }
-h4{
-  font-size: small;
-  text-align: center;
+/* This is the title of the pages */
+.h1{
+  padding: 0 1em;
+  font-family: 'Inconsolata',monospace;
+  font-size: 27px;
 }
+/* This section has the objective of adjust the task in order to be more responsive */
 div.a {
-    width: 1,000px;
-    height: 175px;
+    max-width: 70rem;
+    max-height: 70rem;
     border: 1px;
     word-wrap:break-word;  
-    align-items: block;   
+    align-items: block;  
+    padding: 0 1em; 
 }
+/* This section has the objective of define the size of the picture of the book and define the space around the picture. */
 .first{
-    height: 230px;
-    width: 200px;
-     float: left; margin-right: 10px; margin-bottom: auto; margin-top: 10px ;
-     /* https://www.youtube.com/watch?v=mEMrFbX4Agg */    
+    height: 200px;
+    width: 190px;
+    float: left; margin-right: 10px; margin-bottom: 10px; margin-top: 10px ; 
+     padding: 0 1em;         
+/* This section is about the navigation bar: Home, about, etc. */
 }
 ul {
     list-style-type: none;
@@ -76,6 +66,7 @@ ul {
     background-color: #BDB7AB;
     
   }
+/* THis section is the footer */
  footer{
   position: absolute;
   bottom: 0%;
@@ -86,6 +77,7 @@ ul {
   background-color: #808588;
   color:black;
   font-size: small;  
+/* This section is the pagination */
 } 
 .pagination {
   display:inline-block;
@@ -99,13 +91,13 @@ ul {
   float: left;
   padding: 8px 16px;
   text-decoration: none;
-  transition: background-color .3s;
- 
+  transition: background-color .3s; 
 }
 .pagination a.active {
   background-color: white;
 }
 .pagination a:hover:not(.active){background-color: #ddd;}
+/* This is a code that have the objective to make the webpage more responsives to several devices and screen sizes */
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .col-s-1 {width: 8.33%;}
@@ -136,10 +128,25 @@ ul {
   .col-11 {width: 91.66%;}
   .col-12 {width: 100%;}
 }
+/* This section is an effort to make more responsive the body of the webpage */
 section{
-  margin: 12px;
+  margin: auto;
   display: block;
+  max-width: 60rem;
+  max-height: 60rem;
+  margin: auto;
+  border: 2rem solid #b5babd;
+  
 }
+/* This section is an effort to make more resposive the header */
+header{
+  margin: 0px;
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+  border:transparent;
+}
+
 
 
 
